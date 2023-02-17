@@ -8,6 +8,7 @@
   - int i = sc.nextInt()
 - 接收数据
   - System.out.println(i)
+
 ```java
 import java.util.Scanner;
 
@@ -17,6 +18,24 @@ public class ScannerDemo1 {
     System.out.println("Please input");
     int i = sc.nextInt();
     System.out.println(i);
+  }
+}
+```
+
+## switch
+
+- 简化写法
+
+```java
+public class ScannerDemo1 {
+  public static void main(String[] args) {
+    switch (number) {
+      case 1 -> System.out.println('1');
+      case 2 -> System.out.println('2');
+      case 3 -> System.out.println('3');
+      case 4 -> System.out.println('4');
+      default -> System.out.println('0');
+    }
   }
 }
 ```
