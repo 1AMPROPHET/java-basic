@@ -97,7 +97,7 @@ public class ScannerDemo1 {
 - public BigDecimal divide(BigDecimal val)
 - public BigDecimal divide(BigDecimal val, 精确几位，舍入)
 
-## Date 
+## Date
 
 ### SimpleDateFormat 的两个作用
 
