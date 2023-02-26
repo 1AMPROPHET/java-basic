@@ -38,3 +38,10 @@
 ### 变回字符串
 
 - String s = sb.toString()；
+
+## StringJoiner
+
+### 构造方法
+
+- public StringJoiner(间隔符号)；
+- public StringJoiner(间隔符号，开始符号，结束符号)；
