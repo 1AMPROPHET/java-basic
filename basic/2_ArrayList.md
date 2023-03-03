@@ -26,3 +26,14 @@ ArrayList<String> list = new ArrayList<>();
 
 boolean result = list.remove('aaa')
 ```
+
+## 基础数据类型的包装类
+
+- byte     Byte
+- short    Short
+- char     Character
+- int      Integer
+- long     Long
+- float    FLoat
+- double   Double
+- boolean  Boolean
