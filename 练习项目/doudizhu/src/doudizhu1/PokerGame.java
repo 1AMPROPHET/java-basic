@@ -20,6 +20,9 @@ public class PokerGame {
         }
         list.add("JOKER");
         list.add("joker");
+
+        // 指定牌的价值
+
     }
     public PokerGame() {
         // 洗牌
@@ -44,6 +47,10 @@ public class PokerGame {
                 player3.add(poker);
             }
         }
+
+        // 排序
+
+
         // 看牌
         lookPoker("bottom", lord);
         lookPoker("P1", player1);
