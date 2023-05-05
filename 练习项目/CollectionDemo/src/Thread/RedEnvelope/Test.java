@@ -9,6 +9,7 @@ public class Test {
         5个人是5条线程
          */
 
+
         MyThread mt1 = new MyThread();
         MyThread mt2 = new MyThread();
         MyThread mt3 = new MyThread();
